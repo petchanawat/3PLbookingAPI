@@ -5,8 +5,9 @@ Old Pain Points
   - It takes a long time to compare order fees between two third-party logistics providers since the logistics admins must do it one at a time.
 
 New Solutions
-  - Make an application that allows drivers to submit evidence of pickup and drop-off goods, including real-time times, to the operating database.
-  - It takes no more than 2 minutes to complete the application loop.
+  - Design a web application for sending API direct requests to get delivery fees from responses and create delivery orders after knowing the price. Using information from Airtable (the operating database) directly. (Name, Telephone, Address, Latitude, and Longitude)
+  - It takes no more than 5 minutes to complete the price check and shipment booking.
+  - Have a choice to choose the best price because of getting a delivery fee from two third-party logistics companies for doing it once.
 
 I used Retool (backend workflow, graphic interface, and frontend software development).
 
