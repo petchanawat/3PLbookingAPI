@@ -16,10 +16,10 @@ I used Retool (backend workflow, graphic interface, and frontend software develo
 ![3PLOrderBooking1](https://github.com/petchanawat/3PLbookingAPI/assets/158483894/bfee2e8b-de7a-4fd5-b6a7-e7c5e7a50925)
 
 
-### This image shows the web application when retrieving data from the operating database and is ready for checking prices and booking delivery orders. [listData.js] is the script for GET data using a direct API from the operating database; 1 record has to be unpivot to 2 because it has a 2-point pick-up and drop-off, but if more than 1 point has the same latitude and longitude, then it will be combined into a single point.
+### This image shows the web application when retrieving data from the operating database and is ready for checking prices and booking delivery orders. [listData.js] is the script for GET data using a REST API from the operating database; 1 record has to be unpivot to 2 because it has a 2-point pick-up and drop-off, but if more than 1 point has the same latitude and longitude, then it will be combined into a single point.
 
 ![3PLOrderBooking2](https://github.com/petchanawat/3PLbookingAPI/assets/158483894/a8f8b2dd-42e1-4d6f-9394-86656fc5c8b4)
 
 
-
+### This image shows the web application when it gets prices from third-party logistics and is ready to book delivery orders. [genJSONDeliveree.js] and [genJSONLalamove.js] are the scripts to convert data from the operating database to JSON format for being ready to check delivery fee and distance by GET data using a REST API. (Lalamove has to hash data by using a secret and key before getting a price and book an order.)
 
