@@ -11,5 +11,5 @@ New Solutions
 
 I used Retool (backend workflow, graphic interface, and frontend software development).
 
-This image is the first page of the mobile application for drivers.
+This image shows the web application before retrieving data from the operating database, checking prices, and booking delivery orders.
 
