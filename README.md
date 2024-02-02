@@ -16,7 +16,7 @@ I used Retool (backend workflow, graphic interface, and frontend software develo
 ![3PLOrderBooking1](https://github.com/petchanawat/3PLbookingAPI/assets/158483894/2da1a37d-b287-4b3f-8eb2-39a4e20bf22b)
 
 
-### This image shows the web application when retrieving data from the operating database and is ready for checking prices and booking delivery orders. [listData.js] is the script for GET data using a REST API from the operating database; 1 record has to be unpivot to 2 because it has a 2-point pick-up and drop-off, but if more than 1 point has the same latitude and longitude, then it will be combined into a single point.
+### This image shows the web application when retrieving data from the operating database and is ready for checking prices and booking delivery orders. [listData.js](https://github.com/petchanawat/3PLbookingAPI/blob/main/listData.js) is the script for GET data using a REST API from the operating database; 1 record has to be unpivot to 2 because it has a 2-point pick-up and drop-off, but if more than 1 point has the same latitude and longitude, then it will be combined into a single point.
 
 ![3PLOrderBooking2](https://github.com/petchanawat/3PLbookingAPI/assets/158483894/53081ff6-193a-41ad-ad0c-58da395c860e)
 
