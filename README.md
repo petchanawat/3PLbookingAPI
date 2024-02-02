@@ -21,7 +21,7 @@ I used Retool (backend workflow, graphic interface, and frontend software develo
 ![3PLOrderBooking2](https://github.com/petchanawat/3PLbookingAPI/assets/158483894/53081ff6-193a-41ad-ad0c-58da395c860e)
 
 
-### This image shows the web application when it gets prices from third-party logistics and is ready to book delivery orders. [genJSONDeliveree.js] and [genJSONLalamove.js] are the scripts to convert data from the operating database to JSON format for being ready to check delivery fee and distance by GET data using a REST API. (Lalamove has to hash data by using a secret and key before getting a price and book an order.
+### This image shows the web application when it gets prices from third-party logistics and is ready to book delivery orders. [genJSONDeliveree.js](https://github.com/petchanawat/3PLbookingAPI/blob/main/genJSONDeliveree.js) and [genJSONLalamove.js] are the scripts to convert data from the operating database to JSON format for being ready to check delivery fee and distance by GET data using a REST API. (Lalamove has to hash data by using a secret and key before getting a price and book an order.
 ![3PLOrderBooking3](https://github.com/petchanawat/3PLbookingAPI/assets/158483894/c7e682ed-d8b4-460a-ab6b-d17a41d50af0)
 
 
